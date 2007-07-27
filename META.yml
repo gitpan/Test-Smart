@@ -1,6 +1,6 @@
 ---
 name: Test-Smart
-version: 0.01
+version: 0.02
 author:
   - 'Edgar A. Bering, E<lt>trizor@gmail.comE<gt>'
 abstract: Test things that require Human Intelligence automatically. (By asking someone)
@@ -12,7 +12,7 @@ requires:
 provides:
   Test::Smart:
     file: lib/Test/Smart.pm
-    version: 0.01
+    version: 0.02
   Test::Smart::Interface:
     file: lib/Test/Smart/Interface.pm
   Test::Smart::Interface::File:

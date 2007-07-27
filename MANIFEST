@@ -5,6 +5,7 @@ lib/Test/Smart/Interface.pm
 lib/Test/Smart/Interface/File.pm
 lib/Test/Smart/Interface/Mock.pm
 lib/Test/Smart/Question.pm
+Makefile.PL
 MANIFEST
 META.yml
 README
@@ -16,4 +17,3 @@ t/Test-Smart-Interface-Mock.t
 t/Test-Smart-Interface.t
 t/Test-Smart-Question.t
 t/Test-Smart.t
-Makefile.PL

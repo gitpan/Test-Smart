@@ -3,7 +3,7 @@ package Test::Smart;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 my $CLASS = __PACKAGE__;
 my $interface;
 
@@ -14,6 +14,10 @@ use Test::Smart::Interface;
 our @EXPORT = qw(initialize get_yes get_no);
 our @EXPORT_OK = qw(ask answer);
 
+=head1 OBSOLETE
+
+Test::AskAnExpert is the successor module, the name is better and there have
+been some compatability breaking changes. You don't want this.
 
 =head1 NAME
 
